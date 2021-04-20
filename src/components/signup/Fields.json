@@ -1,0 +1,31 @@
+[
+  {
+    "autoFocus": true,
+    "label": "Email address*",
+    "type": "email",
+    "name": "email",
+    "placeholder": "Enter email",
+    "helperText": "We'll never share your email with anyone else."
+  },
+  {
+    "label": "Full Name*",
+    "type": "text",
+    "name": "name",
+    "placeholder": "Enter your name",
+    "helperText": "Minimum 3 characters are required."
+  },
+  {
+    "label": "Password*",
+    "type": "password",
+    "name": "passwd",
+    "placeholder": "Password",
+    "helperText": "Minimum 6 characters are required."
+  },
+  {
+    "label": "Re type Password*",
+    "type": "password",
+    "name": "confirmPasswd",
+    "placeholder": "Re type Password",
+    "helperText": "Minimum 6 characters are required."
+  }
+]

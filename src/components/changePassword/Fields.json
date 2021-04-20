@@ -1,0 +1,23 @@
+[
+  {
+    "autoFocus": true,
+    "label": "Old Password*",
+    "type": "password",
+    "name": "oldPasswd",
+    "placeholder": "Your old password"
+  },
+  {
+    "label": "Password*",
+    "type": "password",
+    "name": "passwd",
+    "placeholder": "Password",
+    "helperText": "Minimum 6 characters are required."
+  },
+  {
+    "label": "Re type Password*",
+    "type": "password",
+    "name": "confirmPasswd",
+    "placeholder": "Re type Password",
+    "helperText": "Minimum 6 characters are required."
+  }
+]

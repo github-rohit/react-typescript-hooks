@@ -1,0 +1,76 @@
+[
+  {
+    "autoFocus": true,
+    "label": "Name*",
+    "type": "text",
+    "name": "name",
+    "placeholder": "Your name"
+  },
+  {
+    "rows": 6,
+    "label": "About me",
+    "type": "textarea",
+    "name": "aboutme",
+    "placeholder": "About me"
+  },
+  {
+    "label": "Website",
+    "type": "text",
+    "name": "website",
+    "placeholder": "Website"
+  },
+  {
+    "label": "Country",
+    "type": "text",
+    "name": "country",
+    "placeholder": "Country"
+  },
+  {
+    "label": "Gender",
+    "type": "text",
+    "name": "gender",
+    "placeholder": "Gender"
+  },
+  {
+    "label": "Facebook",
+    "name": "facebook",
+    "placeholder": "Facebook",
+    "type": "text"
+  },
+  {
+    "label": "Twitter",
+    "name": "twitter",
+    "placeholder": "Twitter",
+    "type": "text"
+  },
+  {
+    "label": "Google plus",
+    "name": "google_plus",
+    "placeholder": "Google plus",
+    "type": "text"
+  },
+  {
+    "label": "LinkedIn",
+    "name": "linkedIn",
+    "placeholder": "LinkedIn",
+    "type": "text"
+  },
+  {
+    "label": "Instagram",
+    "name": "instagram",
+    "placeholder": "Instagram",
+    "type": "text"
+  },
+  {
+    "label": "Tumblr",
+    "name": "tumblr",
+    "placeholder": "Tumblr",
+    "type": "text"
+  },
+  {
+    "label": "Pinterest",
+    "name": "pinterest",
+    "placeholder": "Pinterest",
+    "type": "text"
+  }
+]

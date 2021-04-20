@@ -1,0 +1,20 @@
+.ui-author-container {
+  @extend .p-4;
+  background: #fafafa;
+
+  .ui-author-avatar {
+    img {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+  }
+
+  .ui-author-details {
+    @extend .pt-3;
+
+    p {
+      @extend .mb-1;
+    }
+
+  }
+}

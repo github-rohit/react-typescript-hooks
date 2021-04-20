@@ -1,0 +1,25 @@
+@import url('//fonts.googleapis.com/css?family=Poppins:300,400,500|Material+Icons');
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/font-awesome/scss/font-awesome.scss';
+@import './components/navbar/Navbar.scss';
+@import './components/post/Post.scss';
+@import './components/aside/Aside.scss';
+@import './components/comment/Comment.scss';
+@import './components/author/Author.scss';
+@import './components/profile/Profile.scss';
+@import './App.scss';
+
+
+body.darkClass {
+  background:url('./images/body-cover-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .navbar {
+    background: transparent;
+    &.scroll-fixed {
+      background-color: #fff;;
+    }
+  }
+  
+}

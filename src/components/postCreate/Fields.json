@@ -1,0 +1,70 @@
+[
+  {
+    "autoFocus": true,
+    "label": "Post title*",
+    "type": "textarea",
+    "name": "title",
+    "placeholder": "Enter Post Title",
+    "classess": "form-post-title"
+  },
+  {
+    "label": "Description*",
+    "type": "tinymce",
+    "name": "description"
+  },
+  {
+    "label": "Featured image url",
+    "type": "url",
+    "name": "image"
+  },
+  {
+    "label": "Category",
+    "type": "select",
+    "name": "category",
+    "options": [
+      {
+        "_id": "59f5fceff36d28236307eb23",
+        "category": "Technology",
+        "count": 2,
+        "__v": 0
+      },
+      {
+        "_id": "59f5fd5af36d28236307eb2d",
+        "category": "Music",
+        "count": 0,
+        "_v": 0
+      },
+      {
+        "_id": "59f5fdaaf36d28236307eb36",
+        "category": "Fashion",
+        "count": 0
+      },
+      {
+        "_id": "59f5fdb5f36d28236307eb37",
+        "category": "Movie",
+        "count": 0
+      },
+      {
+        "_id": "59f5fdc2f36d28236307eb39",
+        "category": "Law",
+        "count": 0
+      },
+      {
+        "_id": "59f5fdcbf36d28236307eb3b",
+        "category": "History",
+        "count": 0
+      },
+      {
+        "_id": "5a6b5fcc734d1d6303187348",
+        "category": "Uncategorized",
+        "count": 0,
+        "__v": 0
+      }
+    ]
+  },
+  {
+    "label": "Tags",
+    "type": "text",
+    "name": "tags"
+  }
+]

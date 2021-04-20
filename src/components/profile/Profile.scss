@@ -1,0 +1,151 @@
+/* TAB */
+.ui-tabs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 45px;
+  /* border-bottom: 1px solid #CCC; */
+  border-bottom: 1px solid #efefef;
+}
+.ui-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+  margin-right: 30px;
+}
+.ui-tabs > li > a {
+  text-decoration: none;
+  position: relative;
+  display: block;
+  padding: 10px 0;
+  color: #666;
+  border-bottom: 1px solid transparent;
+}
+.ui-tabs > li > a.active {
+  color: #3f51b5;
+  border-bottom-color: #3f51b5;
+}
+.ui-tabs > li > a:hover,
+.ui-tabs > li > a:active,
+.ui-tabs > li > a:focus {
+  background: transparent;
+  color: #3f51b5;
+}
+
+.ui-new-post .form-group > label {
+  display: none !important;
+}
+.ui-new-post textarea.form-post-title {
+  overflow: hidden;
+  resize: none;
+  height: 60px;
+  padding: 0;
+  width: 100%;
+  border: 0;
+  font-size: 1.7em;
+  line-height: 1.5;
+  outline: none;
+  margin-bottom: 15px;
+}
+/*
+*/
+.fixed-wrapper-btns {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid #efefef;
+  text-align: center;
+  padding: 5px 15px;
+  z-index: 1000;
+}
+.fixed-wrapper-btns .btn {
+  min-width: 125px;
+  border-radius: 0;
+}
+.create-btns {
+  text-align: left;
+  right: 0;
+}
+.sub-field-container {
+  border-left: 1px solid #eee;
+  padding: 1rem 0 2rem 1.5rem;
+}
+.sub-field-container label {
+  color: #99979c;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.form-group-sub {
+  margin-bottom: 1.5rem;
+}
+
+.form-group-sub .form-control + img {
+  margin-top: 0.5rem;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 240px auto;
+  grid-gap: 30px;
+}
+.profile-container h4 {
+  color: #3f51b5;
+}
+.profile-avatar img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.profile-aboutme,
+.profile-social-media {
+  grid-column: 2/-1;
+}
+.profile-base-info p {
+  margin-bottom: 0.5rem;
+}
+.profile-social-media a {
+  color: #666;
+  font-size: 0.8rem;
+}
+.profile-social-media a .fa {
+  width: 24px;
+}
+.edit-profile-btn {
+  width: 100%;
+}
+.profile-container .fixed-wrapper-btns .container {
+  display: grid;
+  grid-template-columns: 240px auto;
+  grid-column-gap: 30px;
+}
+
+@media (max-width: 500px) {
+  .navbar-expand {
+    margin-bottom: 1.5rem;
+  }
+  .post-container {
+    margin-bottom: 1.5rem;
+  }
+  .post-card {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .post-card:hover {
+    box-shadow: none;
+  }
+  .profile-container {
+    grid-template-columns: initial;
+  }
+  .profile-action-btn {
+    grid-row-start: 4;
+    margin-bottom: 3rem;
+  }
+  .profile-avatar {
+    display: none;
+  }
+  .profile-container .fixed-wrapper-btns .container {
+    grid-template-columns: initial;
+    text-align: center;
+  }
+}
